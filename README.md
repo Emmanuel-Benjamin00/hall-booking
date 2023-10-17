@@ -1,7 +1,7 @@
 # HALL Booking
 All endpoints are list below, you can use the postman documentation for more clear output.
 
-Please check the postman documentation link below
+Please check the postman documentation link -
 https://documenter.getpostman.com/view/30441359/2s9YR6cFHH
 
 This is a Hall Booking API. 
