@@ -1,41 +1,5 @@
 
-const Rooms = [
-    {
-        id: 1,
-        RoomName: "Room1",
-        Seats: 100,
-        Amenities: "Fan",
-        PriceForOneHr: "Rs.500"
-    },
-    {
-        id: 2,
-        RoomName: "Room2",
-        Seats: 250,
-        Amenities: "Air Cooler",
-        PriceForOneHr: "Rs.1000"
-    },
-    {
-        id: 3,
-        RoomName: "Room3",
-        Seats: 500,
-        Amenities: "AC",
-        PriceForOneHr: "Rs.1800"
-    },
-    {
-        id: 4,
-        RoomName: "Room4",
-        Seats: 1000,
-        Amenities: "AC",
-        PriceForOneHr: "Rs.2500"
-    },
-    {
-        id: 5,
-        RoomName: "Room5",
-        Seats: 1500,
-        Amenities: "AC",
-        PriceForOneHr: "Rs.3200"
-    }
-]
+const Rooms = []
 
 
 const createRoom = (req, res) => {

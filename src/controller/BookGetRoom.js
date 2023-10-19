@@ -1,40 +1,7 @@
 const Rooms = require("./CreateRoom")
 const moment = require('moment');
 
-const BookedList = [
-    {
-        bookingId: "B1",
-        CustomerName: "Emmanuel",
-        Date: "2023-01-17",
-        StartTime: "09:00 AM",
-        EndTime: "11:00 AM",
-        RoomID: 3
-    },
-    {
-        bookingId: "B2",
-        CustomerName: "David",
-        Date: "2023-10-18",
-        StartTime: "09:00 AM",
-        EndTime: "11:00 AM",
-        RoomID: 5
-    },
-    {
-        bookingId: "B3",
-        CustomerName: "Emmanuel",
-        Date: "2024-01-15",
-        StartTime: "12:00 PM",
-        EndTime: "01:00 PM",
-        RoomID: 4
-    },
-    {
-        bookingId: "B4",
-        CustomerName: "David",
-        Date: "2022-02-16",
-        StartTime: "12:00 PM",
-        EndTime: "01:00 PM",
-        RoomID: 2
-    }
-]
+const BookedList = []
 
 
 const bookRoom = (req, res) => {
