@@ -1,17 +1,39 @@
-# HALL Booking
-All endpoints are list below, you can use the postman documentation for more clear output.
+# Hall Booking API
 
-Please check the postman documentation link -
-https://documenter.getpostman.com/view/30441359/2s9YR6cFHH
+This API facilitates the booking and management of rooms for events. The endpoints are detailed below. For a clearer output, please refer to the [Postman Documentation](https://documenter.getpostman.com/view/30441359/2s9YR6cFHH).
 
-This is a Hall Booking API. 
+## Endpoints
 
-It can Create a room when entering the room properties. The endpoint is '/create'
+### Create Room
 
-It can book rooms with customer details and required rooms details.The endpoint is '/book'
+- **Endpoint:** `POST /create`
+- **Description:** Creates a room when providing the room properties.
 
-It can show all athe rooms that are booked and, even the rooms that are booked expired.The endpoint is '/listRooms'
+### Book Rooms
 
-It can show all the customers who have booked rooms all these days.The endpoint is '/listCustomers'
+- **Endpoint:** `POST /book`
+- **Description:** Books rooms with customer details and required room details.
 
-It can list each customer data specifically.The endpoint is '/eachCustomerData/:customerName'
+### List Booked Rooms
+
+- **Endpoint:** `GET /listRooms`
+- **Description:** Shows all the rooms that are booked, including those with expired bookings.
+
+### List Customers
+
+- **Endpoint:** `GET /listCustomers`
+- **Description:** Shows all customers who have booked rooms.
+
+### Each Customer Data
+
+- **Endpoint:** `GET /eachCustomerData/:customerName`
+- **Description:** Lists data for a specific customer identified by the customerName.
+
+## Technologies Used
+
+- Backend: Expressjs
+- Database: MongoDB
+
+https://github.com/Emmanuel-Benjamin00/hall-booking
+
+
